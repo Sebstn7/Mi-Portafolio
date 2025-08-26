@@ -32,9 +32,9 @@ fetch(`https://api.github.com/users/${username}/repos?sort=updated&per_page=6`)
   .catch(error => console.error("Error cargando repos:", error));
 
 
-//  Formulario de contacto con Formspree
+//   Formspree
 document.getElementById("contact-form").addEventListener("submit", async function(event) {
-  event.preventDefault(); // evita recargar/redirigir la página
+  event.preventDefault(); 
 
   const form = event.target;
   const data = new FormData(form);
