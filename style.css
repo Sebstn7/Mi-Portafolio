@@ -1,0 +1,25 @@
+body {
+  scroll-behavior: smooth;
+}
+
+header img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+header {
+  background: linear-gradient(135deg, #3c80e7, #4224af);
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+}
+
+p, a, li {
+  font-weight: 300;
+}
