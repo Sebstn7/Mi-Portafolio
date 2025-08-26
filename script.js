@@ -1,5 +1,5 @@
-//  Cargar repos de GitHub
-const username = "Sebstn7"; // tu usuario
+// repo de GitHub
+const username = "Sebstn7"; 
 const repoContainer = document.getElementById("repo-container");
 
 fetch(`https://api.github.com/users/${username}/repos?sort=updated&per_page=6`)
